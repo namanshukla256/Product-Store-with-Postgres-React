@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-const { PGHOST, PGDATABASE, PGUSER. PGPASSWPRD } = process.env;
+const { PGHOST, PGDATABASE, PGUSER, PGPASSWPRD } = process.env;
 
 // creates a SQL connection using our env variables
 export const sql = neon(
