@@ -1,5 +1,7 @@
 import { sql } from "../config/db.js";
 
+// CRUD Operations
+
 export const getProducts = async (req, res) => {
   try {
     const products = await sql`
